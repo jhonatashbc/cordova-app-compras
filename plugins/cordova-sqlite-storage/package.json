@@ -1,0 +1,104 @@
+{
+  "_args": [
+    [
+      "cordova-sqlite-storage",
+      "/home/limasoftware/estudos/Shopping/shopping"
+    ]
+  ],
+  "_from": "cordova-sqlite-storage@latest",
+  "_hasShrinkwrap": false,
+  "_id": "cordova-sqlite-storage@4.0.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/cordova-sqlite-storage",
+  "_nodeVersion": "12.13.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/cordova-sqlite-storage_4.0.0_1575614444590_0.9546940130939703"
+  },
+  "_npmUser": {
+    "email": "chris@brody.consulting",
+    "name": "brodybits"
+  },
+  "_npmVersion": "6.12.1",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "cordova-sqlite-storage",
+    "raw": "cordova-sqlite-storage",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-sqlite-storage/-/cordova-sqlite-storage-4.0.0.tgz",
+  "_shasum": "50a4ac0f4d198fa9837079805572457bc839d9c8",
+  "_shrinkwrap": null,
+  "_spec": "cordova-sqlite-storage",
+  "_where": "/home/limasoftware/estudos/Shopping/shopping",
+  "author": {
+    "name": "various"
+  },
+  "bugs": {
+    "url": "https://github.com/xpbrew/cordova-sqlite-storage/issues"
+  },
+  "cordova": {
+    "id": "cordova-sqlite-storage",
+    "platforms": [
+      "android",
+      "ios",
+      "osx",
+      "windows"
+    ]
+  },
+  "dependencies": {
+    "cordova-sqlite-storage-dependencies": "2.1.1"
+  },
+  "description": "Native interface to SQLite for PhoneGap/Cordova - cordova-sqlite-storage plugin version",
+  "devDependencies": {
+    "coffeescript": "1",
+    "cross-spawn": "^6.0.5",
+    "fs-extra": "^8.1.0"
+  },
+  "directories": {},
+  "dist": {
+    "fileCount": 63,
+    "integrity": "sha512-/n5KT3TyRAC7QRe9A4Sn7bMpdsBJ6aMmHat2PsMxFZBot45SOxbAEgfGmXtq0e7OEdVzk573sIn42bLS6lNLjQ==",
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJd6fftCRA9TVsSAnZWagAAWJ4P/1tgxMrbSxoabNoBLM4d\ndjtfw7Zb5bQM9B+unY1IrWRVc5utfPW24x+vMtx0ZCqd3t+QLgMgY+Duvabn\njCBWSfVVuGxQvUEE2pr6UDyaGtdm5NxjgdRaBxbgOoEJdLxQH1zgdJsKHDOq\nDM2eN3VYSelKn8W/zKDJOjKVxBNH4/zyGmQmPq1e3bluTbxQk3/9xuEsOhTL\nf1mW4SGhZkFeSWThwcLHY61MLnT8qCMM7UJ/pA5IiNjTM6gcaD/Og6fZRS5Z\nPOdrEg5cE+MxiT+S8sEPPVqGg27chYdajNxs6/QpnCes5kGo3gHIhpdpmDWp\nFUFb9ed4/MnNjLNfLuHHs6IRCRFZV3gj3m7WpAPIqWSFbDG2pzfL+dsxMSFz\n+9DRES0/a1ISINCjc9gsayxkPJJyb2F3VijA9YT7yzt5XPLldWUnGc54M5Mg\n2woUYn5SRtkbQ5Nu3/XgEZj63CUiybgyGCqx8JabfTKTKFGtQaZC+0gm5fVT\nyqojDywJ/5FduUE7Eweca4YCHIBJt16HSHMQ0RgtZzMf0qusJmlm5vLP6UjE\nhj2QGbY3nkX1flSp48pq3d8bV9F/nyGlhtNxkPdKF3uYAj02z2rBFKwtD2OQ\n95BWKrqScAkfo1m0fCJ8J1OlWJCtp9meOH1MuFYCciByaPwX8gqHA7Yw2J91\nYlmj\r\n=SB4h\r\n-----END PGP SIGNATURE-----\r\n",
+    "shasum": "50a4ac0f4d198fa9837079805572457bc839d9c8",
+    "tarball": "https://registry.npmjs.org/cordova-sqlite-storage/-/cordova-sqlite-storage-4.0.0.tgz",
+    "unpackedSize": 1299066
+  },
+  "gitHead": "d2a498451727cb7de77dc40f81efa101a370a8c2",
+  "homepage": "https://github.com/xpbrew/cordova-sqlite-storage",
+  "keywords": [
+    "cordova-android",
+    "cordova-ios",
+    "cordova-osx",
+    "cordova-windows",
+    "ecosystem:cordova",
+    "sqlite"
+  ],
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "brodybits",
+      "email": "brodybits@litehelpers.net"
+    }
+  ],
+  "name": "cordova-sqlite-storage",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xpbrew/cordova-sqlite-storage.git"
+  },
+  "scripts": {
+    "clean-spec": "rm -rf spec/[mnp]* && git cl spec/config.xml && git status --ignored",
+    "prepare-js": "coffee -p SQLitePlugin.coffee.md > www/SQLitePlugin.js",
+    "prepare-spec": "node scripts/prepareSpec.js"
+  },
+  "version": "4.0.0"
+}

@@ -1,0 +1,170 @@
+{
+  "_args": [
+    [
+      "cordova-plugin-dialogs",
+      "/home/limasoftware/estudos/Shopping/shopping"
+    ]
+  ],
+  "_from": "cordova-plugin-dialogs@latest",
+  "_hasShrinkwrap": false,
+  "_id": "cordova-plugin-dialogs@2.0.2",
+  "_inCache": true,
+  "_installable": true,
+  "_integrity": "",
+  "_location": "/cordova-plugin-dialogs",
+  "_nodeVersion": "12.3.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/cordova-plugin-dialogs_2.0.2_1562090861127_0.3635214677755758"
+  },
+  "_npmUser": {
+    "email": "piotrowski+npmjs.com@gmail.com",
+    "name": "sujan12"
+  },
+  "_npmVersion": "6.9.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "cordova-plugin-dialogs",
+    "raw": "cordova-plugin-dialogs",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-dialogs/-/cordova-plugin-dialogs-2.0.2.tgz",
+  "_shasum": "ac3ce8b73bc885ff847078d5b533e7a4ed418a2f",
+  "_shrinkwrap": null,
+  "_spec": "cordova-plugin-dialogs",
+  "_where": "/home/limasoftware/estudos/Shopping/shopping",
+  "author": {
+    "name": "Apache Software Foundation"
+  },
+  "bugs": {
+    "url": "https://github.com/apache/cordova-plugin-dialogs/issues"
+  },
+  "cordova": {
+    "id": "cordova-plugin-dialogs",
+    "platforms": [
+      "android",
+      "browser",
+      "ios",
+      "windows"
+    ]
+  },
+  "dependencies": {},
+  "description": "Cordova Notification Plugin",
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-semistandard": "^11.0.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.3.0",
+    "eslint-plugin-node": "^5.0.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1"
+  },
+  "directories": {},
+  "dist": {
+    "fileCount": 20,
+    "integrity": "sha512-FUHI6eEVeoz2VkxbF0P56QlUQLGzXcvw3i4xuXyM9gEct6Y+FA3Xzgl2pJTZcTg5wRqLWzN08kgNoHPkom15pw==",
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdG51tCRA9TVsSAnZWagAAyNgP/1RcrmVX9gLljmKRB/v6\nyR0k2zHap2RKEe4rLjxgoeZ3kyFUwoQu6pSEML3xfqg4zON2dygn8oNvBKLS\nMkQh+N0sEDmasH+hmrYjz8Jbyr4YwI6NLlT8zLrPvYrjqalI4+hKrPk9MKE8\nWrxwjriGFY80J55GaMmXx9W2aXBpRaSuHl8w3Ox/3j0ZEkC8YLiN5HsyFYXW\ngy3nUlTE+BwYJo14VZO08WozRCZ1VUeqvzYitAwClQiXn7o6RXQfdnXeBmLb\nyAP0E6csSoaYCO1sc/h1uIa5OIj/nL4XT3a54jUNXlDfdGLWqeDRhC8U/YxY\nFfr4Q8WN+dZXWxglBPZHH1DN6abtXICOFrPqtplDvDDHxKzQgUhka7ubuk4Z\nfV1lh+IEijaP+K7+Qi54f0kBrUPh9UO/m1I5Uw0vQlFdclGJQOxPBHyXLGXO\nXPTOuyHEeobGbWE68c/WotUZxX6Z2kBxIw+Euo41mozNImGTuzZ5xQihjIth\nJJNr2Zoff9cTsmk83FOgi6Z25izB5Gxy2ecujVCxX28R1QahCjnR27as6YQ1\nbiXJfB4Nu1tSQn3HLJSp4+4tpzb/5fBBGDBj3SY4VP44gwjIZrZOdqbzIr/e\n23SP2SfOSSz2dxPralHuwCi0/LVxRswPC8F8GQPp1Z3urr662alxpOugtHNU\nJkYc\r\n=YDo2\r\n-----END PGP SIGNATURE-----\r\n",
+    "shasum": "ac3ce8b73bc885ff847078d5b533e7a4ed418a2f",
+    "tarball": "https://registry.npmjs.org/cordova-plugin-dialogs/-/cordova-plugin-dialogs-2.0.2.tgz",
+    "unpackedSize": 120072
+  },
+  "engines": {
+    "cordovaDependencies": {
+      "3.0.0": {
+        "cordova": ">100"
+      }
+    }
+  },
+  "homepage": "https://github.com/apache/cordova-plugin-dialogs#readme",
+  "keywords": [
+    "cordova",
+    "cordova-android",
+    "cordova-browser",
+    "cordova-ios",
+    "cordova-windows",
+    "ecosystem:cordova",
+    "notification"
+  ],
+  "license": "Apache-2.0",
+  "maintainers": [
+    {
+      "name": "filmaj",
+      "email": "maj.fil@gmail.com"
+    },
+    {
+      "name": "anis",
+      "email": "anis.kadri@gmail.com"
+    },
+    {
+      "name": "brodybits",
+      "email": "chris@brody.consulting"
+    },
+    {
+      "name": "cordovaowner",
+      "email": "apachecordovabot@gmail.com"
+    },
+    {
+      "name": "csantanapr",
+      "email": "csantana23@gmail.com"
+    },
+    {
+      "name": "dpogue",
+      "email": "darryl@dpogue.ca"
+    },
+    {
+      "name": "erisu",
+      "email": "erisu.dev@outlook.jp"
+    },
+    {
+      "name": "bowserj",
+      "email": "bowserj@apache.org"
+    },
+    {
+      "name": "jcesarmobile",
+      "email": "jcesarmobile@gmail.com"
+    },
+    {
+      "name": "macdonst",
+      "email": "simon.macdonald@gmail.com"
+    },
+    {
+      "name": "purplecabbage",
+      "email": "purplecabbage@gmail.com"
+    },
+    {
+      "name": "shazron",
+      "email": "shazron@gmail.com"
+    },
+    {
+      "name": "stevegill",
+      "email": "stevengill97@gmail.com"
+    },
+    {
+      "name": "sujan12",
+      "email": "piotrowski+npmjs.com@gmail.com"
+    },
+    {
+      "name": "surajpindoria",
+      "email": "suraj.pindoria@yahoo.com"
+    }
+  ],
+  "name": "cordova-plugin-dialogs",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apache/cordova-plugin-dialogs.git"
+  },
+  "scripts": {
+    "eslint": "node node_modules/eslint/bin/eslint www && node node_modules/eslint/bin/eslint src && node node_modules/eslint/bin/eslint tests",
+    "test": "npm run eslint"
+  },
+  "types": "./types/index.d.ts",
+  "version": "2.0.2"
+}

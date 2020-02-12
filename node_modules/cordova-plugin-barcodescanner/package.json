@@ -1,0 +1,117 @@
+{
+  "_args": [
+    [
+      "cordova-plugin-barcodescanner",
+      "/home/limasoftware/estudos/Shopping/shopping"
+    ]
+  ],
+  "_from": "cordova-plugin-barcodescanner@latest",
+  "_id": "cordova-plugin-barcodescanner@0.7.4",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/cordova-plugin-barcodescanner",
+  "_nodeVersion": "6.11.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/cordova-plugin-barcodescanner-0.7.4.tgz_1517454401656_0.28968529705889523"
+  },
+  "_npmUser": {
+    "email": "contact@martinreinhardt-online.de",
+    "name": "hypery2k"
+  },
+  "_npmVersion": "3.10.10",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "cordova-plugin-barcodescanner",
+    "raw": "cordova-plugin-barcodescanner",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-barcodescanner/-/cordova-plugin-barcodescanner-0.7.4.tgz",
+  "_shasum": "0e1afbc27ac85a9fa50e659b4e6192377f243c03",
+  "_shrinkwrap": null,
+  "_spec": "cordova-plugin-barcodescanner",
+  "_where": "/home/limasoftware/estudos/Shopping/shopping",
+  "author": {
+    "name": "Martin Reinhardt"
+  },
+  "bugs": {
+    "url": "https://github.com/hypery2k/cordova-barcodescanner-plugin/issues"
+  },
+  "cordova": {
+    "id": "cordova-plugin-barcodescanner",
+    "platforms": [
+      "android",
+      "ios",
+      "windows8",
+      "wp8"
+    ]
+  },
+  "dependencies": {},
+  "description": "Cordova Barcode Scanner Plugin",
+  "devDependencies": {
+    "conventional-changelog-cli": "1.3.5",
+    "cordova-plugin-xml": "0.1.2",
+    "jsdoc": "3.5.5",
+    "jsdoc-to-markdown": "3.0.3",
+    "rimraf": "2.6.2"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "0e1afbc27ac85a9fa50e659b4e6192377f243c03",
+    "tarball": "https://registry.npmjs.org/cordova-plugin-barcodescanner/-/cordova-plugin-barcodescanner-0.7.4.tgz"
+  },
+  "gitHead": "185e4e9f2d679db0c7682d6dd19e66e0b42ca6a0",
+  "homepage": "https://github.com/hypery2k/cordova-barcodescanner-plugin#readme",
+  "keywords": [
+    "barcodescanner",
+    "cordova",
+    "cordova-android",
+    "cordova-ios",
+    "cordova-osx",
+    "cordova-windows8",
+    "cordova-wp8",
+    "ecosystem:cordova"
+  ],
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "hypery2k",
+      "email": "npm@martinreinhardt-online.de"
+    }
+  ],
+  "name": "cordova-plugin-barcodescanner",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hypery2k/cordova-barcodescanner-plugin.git"
+  },
+  "scripts": {
+    "build": "npm run jsdoc",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
+    "changelog:add": "git add plugin.xml && git add CHANGELOG.md && git commit -m 'chore(changelog): Updated CHANGELOG.md'",
+    "clean": "rimraf node_modules dist",
+    "jsdoc": "jsdoc -c jsdoc.json && jsdoc2md www/barcodescanner.js | sed s/barcodeScannerPlugin/cordova.plugins.barcodeScanner/g | sed s/barcodeScannerPlugin/cordova.plugins.barcodeScanner/g > PLUGIN_USAGE.MD",
+    "postclean": "npm i",
+    "posttest": "npm run jsdoc",
+    "preclean": "npm i rimraf",
+    "prepublish": "npm run build",
+    "pretest": "rm -rf tmp && mkdir -p tmp && cd tmp && git clone https://github.com/simpligility/maven-android-sdk-deployer.git && cd maven-android-sdk-deployer/ && mvn install -P 6.0 && ls ~/.m2/repository/android/android/",
+    "publish-and-merge": "git checkout master && git merge develop && npm publish && git push && git checkout develop",
+    "release:major": "npm run release:pre && npm version major && npm run release:post && git push origin && git push origin --tags && npm run version-and-push",
+    "release:minor": "npm run release:pre && npm version minor && npm run release:post && git push origin && git push origin --tags && npm run version-and-push",
+    "release:patch": "npm run release:pre && npm version patch && npm run release:post && git push origin && git push origin --tags && npm run version-and-push",
+    "release:post": "npm run version && npm run changelog && npm run changelog:add",
+    "release:pre": "npm run clean && npm run build",
+    "test": "cd tmp && git clone https://github.com/hypery2k/cordova-demo-app.git && cd cordova-demo-app && npm install && npm run build && cordova platform add ${PLATFORM} && cordova plugin add cordova-plugin-compat && cordova build && cordova plugin add ../.. && cordova build",
+    "version": "cordova-plugin-xml setVersion",
+    "version-and-push": "git push origin && git push origin --tags && npm run publish-and-merge"
+  },
+  "version": "0.7.4"
+}

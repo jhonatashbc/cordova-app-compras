@@ -1,0 +1,17 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "Compras",
+  "short_name": "Compras",
+  "version": "io.cordova.hellocordova",
+  "description": "Aplicativo para gerenciamento de compras em mercado",
+  "author": "Jhonatas H B Carmo",
+  "icons": [
+    {
+      "src": "./res/logo.png",
+      "type": "image/png",
+      "sizes": "undefinedxundefined"
+    }
+  ],
+  "start_url": "index.html"
+}

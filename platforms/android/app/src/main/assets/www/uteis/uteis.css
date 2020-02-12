@@ -1,0 +1,250 @@
+*{
+    color: black;
+    font-family: Garamond;
+}
+a{
+    text-decoration: none;
+}
+.icone{
+    color: #e2e1e1;
+}
+.icone-excluir{
+    color: #d24646;
+}
+table{
+    background-color: #332b2b;
+    box-shadow: 1px 1px 20px;
+    width: inherit!important;
+    color: #e2e1e1;
+}
+.wrapper {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+}
+#sidebar {
+    min-width: 250px;
+    max-width: 250px;
+    min-height: 100vh;
+}
+
+#sidebar.active {
+    margin-left: -250px;
+}
+a[data-toggle="collapse"] {
+    position: relative;
+}
+
+.dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+@media (min-width: 550px){
+    #sidebar.active {
+        margin-left: 0;
+    }
+    #sidebarCollapse{
+        display: none;
+    }
+}
+body {
+    background-color: #e3f2fd;
+  }
+@media (max-height: 581px){
+    .bank-app{
+        height: 20%!important;
+    }
+}
+.card.bank-app {
+    position: fixed;
+    bottom: 0px;
+    height: 56%;
+    border-radius: 21px;
+    width: 100%;
+    transition: height 1s;
+    animation-name: animar;
+    animation-duration: 2s;
+}
+@keyframes animar {
+    from {height: 0%;}
+    to {height: 56%;}
+  }
+.bank-app-active{
+    height: 85%!important;
+}
+.card{
+    background-color: #332b2b;    
+}
+.fundo{
+    background-color: #332b2b;
+}
+.btn{
+    margin: 0rem!important;
+}
+p{
+    color: white;
+}
+label{
+    font-weight: bold;
+}
+.btn-floating {
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    padding: 0;
+    margin: 10px;
+    overflow: hidden;
+    vertical-align: middle;
+    cursor: pointer;
+    border-radius: 50%;
+    -webkit-box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18), 0 4px 15px 0 rgba(0,0,0,0.15);
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18), 0 4px 15px 0 rgba(0,0,0,0.15);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    width: 47px;
+    height: 47px;
+}
+
+.card.bank-app .text-classic-blue {
+    color: #0f4c81
+}
+
+.card.bank-app .classic-blue {
+    background-color: #0f4c81
+}
+
+.card.bank-app .living-coral {
+    background-color: #FA7268
+}
+
+.card.bank-app .text-living-coral {
+    color: #FA7268
+}
+
+.card.bank-app .foggy-grey {
+    background-color: #332b2b
+}
+
+.card.bank-app .notification {
+    font-size: .6rem
+}
+
+.card.bank-app .card-body.information {
+    border-top-left-radius: 21px !important;
+    border-top-right-radius: 21px !important;
+}
+
+.card.bank-app .pb-70 {
+    padding-bottom: 70px
+}
+
+.card.bank-app .card-small {
+    border-radius: 10px
+}
+
+.card.bank-app>.card.history {
+    border-radius: 21px;
+    margin-top: -35px
+}
+
+.card.bank-app .wh-48 {
+    width: 48px;
+    height: 48px
+}
+
+.card.bank-app .select-wrapper.dropdown-primary>label.mdb-main-label.active {
+    color: #0f4c81
+}
+
+.card.bank-app .dropdown-primary .dropdown-content li.active,
+.card.bank-app .dropdown-primary .dropdown-content li a,
+.card.bank-app .dropdown-primary .dropdown-content li span:hover {
+    background-color: #0f4c81 !important;
+    border-radius: .25rem
+}
+
+.card.bank-app .dropdown-content li>a,
+.card.bank-app .dropdown-content li>span {
+    color: #0f4c81;
+    border-radius: .25rem
+}
+
+.card.bank-app .md-form input[type="text"]:not(.browser-default):focus:not([readonly]) {
+    border-bottom: 1px solid #0f4c81
+}
+
+.card.bank-app .select-wrapper .search-wrap .md-form input:focus {
+    -webkit-box-shadow: 0 1px 0 0 #0f4c81 !important;
+    box-shadow: 0 1px 0 0 #0f4c81 !important
+}
+
+a, a:hover, a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+#sidebar {
+    background: #332b2b;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+#sidebar .sidebar-header {
+    padding: 20px;
+    background: #332b2b;
+}
+
+#sidebar ul.components {
+    padding: 20px 0;
+    border-bottom: 1px solid #332b2b;
+}
+
+#sidebar ul p {
+    color: #fff;
+    padding: 10px;
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+}
+#sidebar ul li a:hover {
+    color: #3558e8;
+    background: #332b2b;
+}
+
+#sidebar ul li.active > a, a[aria-expanded="true"] {
+    color: #fff;
+    background: #332b2b;
+}
+ul ul a {
+    font-size: 0.9em !important;
+    padding-left: 30px !important;
+    background: #332b2b;
+}
+.bg-principal{
+    background-color: #332b2b;
+}
+
+.nav-top{
+    height: 60px;
+}
+.container-fluid{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.shadow{
+    box-shadow: 1px 1px 10px black!important;
+}
+.divhr{
+    background-color: white;
+    height: 2px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
